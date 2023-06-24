@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>map()</title>
+</head>
+<body>
+    <script>
+        // var ary =[11,4,9,16];
+        var ary = [
+            {fname : "yash" , lname : "kumawat"},
+            {fname : "sourabh" , lname : "kumawat"},
+            {fname : "shubham" , lname : "kumawat"},
+
+        ];
+        var b = ary.map(test);
+        document.write(b);
+        function test(x){
+            // return x*10;
+            return x.fname + " " + x.lname;
+        }
+
+    </script>
+    
+</body>
+</html>
