@@ -1,0 +1,13 @@
+h1{
+
+    text-shadow: 3px 3px 4px  pink;
+    text-shadow: 3px 3px 4px  pink , 5px 5px 5px greenyellow;
+
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: teal;
+    box-shadow: -10px -10px 15px greenyellow , 12px 12px 19px darkblue;
+}
