@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.box{
+
+    border:1px solid blue;
+    height:100px;
+    background-color:blue;
+
+
+}
+
+.box1{
+
+
+    width:600px;
+    margin:0 auto;
+    border:1px solid black;
+
+}
+
+.box3{
+
+    background-color: deeppink;
+    height:600px;
+    width:200px;
+    position: relative;
+    bottom:500px;
+    display: inline;
+
+
+  
+
+
+}
+
+.box4{
+
+    height:150px;
+    border:1px solid blue;
+    background-color: blue;
+
+
+}

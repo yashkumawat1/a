@@ -1,0 +1,43 @@
+*{
+
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+.container{
+
+    padding:40px;   
+     --my-var:red;
+
+}
+.box{
+
+
+    padding:20px;
+    /* background-color: red; */
+    /* background-color: var(--my-var); */
+    
+
+}
+h1{
+    text-align:center;
+
+
+
+}
+
+.box h2{
+
+    margin-bottom:20px;
+    background-color:var(--my-var);
+
+
+}
+.box p{
+
+    --my-var:yellow;
+    background-color: var(--my-var);
+
+}

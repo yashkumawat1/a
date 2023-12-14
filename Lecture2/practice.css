@@ -1,0 +1,40 @@
+#img1{
+
+    float:right;
+    margin-right:45px;
+}
+
+#box1{
+
+    /* height:60px; */
+    text-align: center;
+    font-family:serif;
+    font-size:25px;
+    font-weight:56px;
+    border:2px solid black;
+    border-radius:34px;
+    background-image:linear-gradient(red, violet);
+    background-image:url(https://vegibit.com/wp-content/uploads/2014/06/html.png);
+    background-repeat:no-repeat;
+    background-size:50% 0%;
+    /* object-fit:contain; */
+    color:burlywood;
+   
+
+
+}
+
+.niche{
+
+    position:relative;
+    top:40px;
+}
+
+#img2{
+
+    
+    height:125px;
+    float:left;
+    margin-right:30px;
+
+}

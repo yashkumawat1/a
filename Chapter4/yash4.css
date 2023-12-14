@@ -1,0 +1,31 @@
+.container{
+
+    /* height:400px; */
+    /* width:400px; */
+    border:2px solid red;
+    /* overflow:scroll; */
+    width:800px;
+}
+
+.img1{
+
+    float:left;
+
+
+}
+
+.img2{
+    float: right;
+}
+
+.para{
+
+
+    text-align: justify;
+    
+}
+
+.block1{
+
+    overflow: auto;
+}

@@ -1,0 +1,114 @@
+/* body{
+
+    background-color: aqua;
+}
+
+@media (width <= 700px)
+{
+
+    body{
+
+        background-color: chartreuse;
+    }
+}
+
+@media (width <= 500px)
+{
+
+    body{
+
+        background-color: yellow;
+    }
+}
+
+
+@media (width <= 300px)
+{
+
+    body{
+
+        background-color:red;
+    }
+}
+
+
+@media (width <= 100px)
+{
+
+    body{
+
+        background-image: url(/CSS/Chapter7/images/IMG20230830111837.jpg);
+        background-size: cover;
+    }
+} */
+
+
+
+/* Abb hamm width <=  ke alawa use karenge max-width  */
+
+/* Notes hame hamesha max width koo decresing order mai likhana hoga jabb hi voo kaam karenge */
+
+/* @media (max-width: 500px)
+{
+
+    body{
+
+        background-color: yellow;
+    }
+}
+
+@media (max-width:400px)
+{
+
+    body{
+
+        background-color: tomato;
+    }
+} */
+
+
+
+
+/* Now we use min Width in our Media Queris in the min- width agar bada hota hh use width se then hamm usko use kar sakte hh */
+
+
+
+body{
+
+    background-color: red;
+}
+
+
+@media (min-width:300px)
+{
+
+    body{
+
+        background-color: teal;
+    }
+}
+
+/* @media (min-width:600px) and (max-width: 900px)
+{
+
+    body{
+
+        background-color: green;
+    }
+} */
+
+/* New Syntax of Media Query  upper wala */
+
+@media (400px <= width <=600px)
+{
+
+    body{
+
+        background-color:peru;
+    }
+}
+
+
+
+
+/* minimum width meaning is Starting Form  and maximum width means upto yani yaha takk */

@@ -1,0 +1,116 @@
+body{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding:40px;
+
+
+}
+
+.primary-btn:link{
+
+    color:green;
+    padding:10px;
+
+}
+
+.primary-btn:visited{
+
+    color:orange;
+}
+
+
+.primary-btn:hover{
+
+    color:red;
+    background-color: black;
+
+
+}
+.primary-btn:active{
+
+    color:blue;
+    background-color:white;
+    border:4px solid green;
+
+
+
+
+}
+
+/* ul li:first-child{
+
+    background-color: red;
+}
+
+ul li:last-child{
+
+    background-color: blue;
+} */
+
+/*   nth Child  */
+/* an+b */
+
+ul li:nth-child(10){
+
+    background-color: brown;
+}
+
+/* Pseudo Elements */
+
+h2::first-letter{
+
+    /* background-color: red; */
+    font-size: 3rem;
+
+
+}
+
+p::first-line{
+
+    background-color: burlywood;
+}
+
+
+::selection{
+
+    color:greenyellow;
+    background-color: black;
+
+}
+
+
+
+/* Before and After */
+
+
+h3::before{
+
+    content: 'Yash';
+}
+h3::after{
+
+    content: 'Of Your Future';
+}
+
+
+.required::after{
+
+    content: '*';
+    color:red;
+
+
+
+}
+
+.important::after{
+
+    content: 'importent';
+    background-color: red;
+    color:white;
+    padding:0.3rem;
+    margin-left:10px;
+    vertical-align: middle;
+
+}
+
+

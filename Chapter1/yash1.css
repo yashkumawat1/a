@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    overflow-x: hidden;
+}
+img{
+
+    width:  300px;
+    height:150px;
+    margin:20px;
+    float: left;
+    border-radius: 30px;
+    object-fit: cover;
+
+
+}
+
+#text1{
+
+    position: relative;
+    left:200px;
+    top:50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    
+
+
+
+}
+.yash{
+    border:1px solid black;
+    border-collapse: collapse;
+    margin:0 auto;
+    padding:20px;
+    color:blue;
+    background-color: aqua;
+   
+    
+    
+}
+
+.box5{
+    margin:10px;
+    padding: 10px;
+}
+
+.box6{
+
+    color:green;
+    background-color: yellow;
+
+
+}
+
